@@ -1,6 +1,6 @@
-Color Detection Using OpenCV🎨🔍
+## Color Detection Using OpenCV🎨🔍
 
-Overview
+## Overview
 
 This project utilizes OpenCV and NumPy to detect and track specific colors in real-time from a webcam feed. It identifies objects of predefined colors (orange, purple, and green) based on their HSV (Hue, Saturation, Value) color ranges. The program then marks the detected objects and tracks their movement.
 Features
@@ -10,14 +10,14 @@ Features
     Dynamic tracking and drawing of detected objects on the screen
     Configurable color ranges for easy customization
 
-Project Structure
+## Project Structure
 
 📂 Color-Detection-OpenCV  
 │-- 📜 Color_Picker.py   # (Optional) Tool to fine-tune HSV values  
 │-- 📜 color_detection.py   # Main script for color detection  
 │-- 📜 README.md   # Documentation  
 
-How It Works
+## How It Works
 
     Webcam Capture: The script initializes the webcam and captures video frames in real-time.
     Color Space Conversion: Each frame is converted from BGR to HSV color space, which is more suitable for color-based filtering.
@@ -25,7 +25,7 @@ How It Works
     Contour Detection: The program identifies the contours of detected colors and determines their positions.
     Tracking & Visualization: A colored marker is drawn at the detected position, and the object's movement is tracked.
 
-Customization
+## Customization
 Adding More Colors
 
 To detect additional colors, update the myColors list with new HSV values:
@@ -38,7 +38,7 @@ Also, define a corresponding BGR color value in myColorValues:
 
 myColorValues.append([B, G, R])  # Specify marker color
 
-Adjusting HSV Values
+## Adjusting HSV Values
 
 To fine-tune detection accuracy, use Color_Picker.py, which provides an interface with trackbars for real-time adjustments.
 Potential Improvements
