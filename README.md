@@ -50,5 +50,5 @@ Potential Improvements
 ## Demo  
 Below is an example of the color detection in action:
 
-![Color Detection Example](images/color_detection_example.jpg)
+![Color Detection Example](color_detection_example.jpg)
 
