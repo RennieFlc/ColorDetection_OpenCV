@@ -46,3 +46,9 @@ Potential Improvements
     Implement shape detection (e.g., circles, squares, and rectangles)
     Introduce a drawing mode where detected objects leave a trail
     Enhance detection robustness with adaptive thresholding or machine learning-based segmentation
+
+## Demo  
+Below is an example of the color detection in action:
+
+![Color Detection Example](images/color_detection_example.jpg)
+
